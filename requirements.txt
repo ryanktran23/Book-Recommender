@@ -1,0 +1,9 @@
+pandas
+numpy
+python-dotenv
+gradio
+langchain
+langchain-community
+langchain-openai
+sentence-transformers
+chromadb
