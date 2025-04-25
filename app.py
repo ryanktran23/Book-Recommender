@@ -3,7 +3,7 @@ import numpy as np
 from dotenv import load_dotenv
 
 from langchain_community.document_loaders import TextLoader
-from langchain_openai import OpenAIEmbeddings
+# from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 
@@ -106,5 +106,5 @@ with gr.Blocks(theme = gr.themes.Glass()) as dashboard:
                         outputs = output)
 
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     dashboard.launch()
